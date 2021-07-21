@@ -73,10 +73,10 @@ Engine.update(engine);
      plinkos[i].display();
      
    }
-   if(frameCount%60===0){
-     Particles.push(new Particle(random(width/2-30, width/2+30), 10,10));
-     score++;
-   }
+  // if(frameCount%60===0){
+    // Particles.push(new Particle(random(width/2-30, width/2+30), 10,10));
+     //score++;
+   //}
  
   for (var j = 0; j < Particles.length; j++) {
    
