@@ -26,25 +26,25 @@ class Particle {
         ellipse(0, 0, this.r,this.r);
         pop();
     }}
-    if(Particle!=null)
+    /*if(Particle!=null)
     {
-    Particle.display();
-    if (Particle.body.position.y>760)
+    //Particle.display();
+    if (Particle.body.setPosition.y>760)
     {
     if (Particle.body.position.x < 300)
     {
     score=score+500;
-    Particle=null;
+    Particles=null;
     }
-    else if (Particle.body.position.x < 600 && Particle.body.position.x > 301 )
+    else if (Particles.body.position.x < 600 && Particles.body.position.x > 301 )
     {
     score = score + 100;
-    Particle=null;
+    Particles=null;
     }
-    else if (Particle.body.position.x < 900 && Particle.body.position.x > 601 )
+    else if (Particles.body.position.x < 900 && Particles.body.position.x > 601 )
     {
     score = score + 200;
-    Particle=null;
+    Particles=null;
     }
     }
-    }
+}*/
