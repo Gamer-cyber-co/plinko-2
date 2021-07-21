@@ -49,11 +49,11 @@ function setup() {
 function draw() {
   background("black");
   textSize(20)
- //text("Score : "+score,20,30);
+ text("Score : "+score,20,30);
   Engine.update(engine);
   text("Score : "+score,20,40);
 fill("white");
-//text(mouseX + "," + mouseY, 20, 50);
+text(mouseX + "," + mouseY, 20, 50);
 textSize(35)
 text(" 500 ", 5, 550);
 text(" 500 ", 80, 550);
